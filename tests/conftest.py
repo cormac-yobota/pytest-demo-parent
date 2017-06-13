@@ -1,6 +1,1 @@
-import pytest
-
-@pytest.fixture
-def hello():
-    return "hello!!"
-
+pytest_plugins = "tests.plugin.fixtures"
